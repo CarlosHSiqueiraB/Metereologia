@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-box,
+  .weather-box {
+    background-color: #888;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  .weather-box h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .temperature {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-icon img {
+    width: 50px;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .humidity {
+    font-size: 16px;
+  }
+  

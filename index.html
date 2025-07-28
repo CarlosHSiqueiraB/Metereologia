@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Previsão do Tempo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Previsão do Tempo</h1>
+
+    <div class="search-box">
+      <label for="cidade">Cidade</label>
+      <input type="text" id="cidade" placeholder="Digite a cidade" />
+      <button onclick="buscarClima()">Buscar</button>
+    </div>
+
+    <div class="weather-box" id="resultado" style="display: none;">
+      <h2 id="nome-cidade">Tempo</h2>
+      <p class="temperature" id="temperatura"></p>
+      <div class="weather-icon" id="icone-clima"></div>
+      <p class="description" id="descricao"></p>
+      <p class="humidity" id="umidade"></p>
+    </div>
+  </div>
+
+  <script src="func.js"></script>
+</body>
+</html>
